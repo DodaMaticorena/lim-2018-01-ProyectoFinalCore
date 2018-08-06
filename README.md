@@ -21,3 +21,13 @@ En este caso van a haber dos tipos de usuarios para este aplicativo web:
 A) Personas que visitan las oficinas de Comunal. 
 B) Administrador que necesita visualizar la data de los visitantes.
 
+## Benchmark
+
+Hicimos benchmark a la empresa Envoy, que se dedica principalmente al registro de visitantes. 
+
+_Conclusiones_
+
+Envoy utiliza un color vivo, el rojo, y el blanco. Tienen un estilo minimalista y dinámico, con el uso de imágenes y fotos sin llegar a ser excesivo. Es bastante simple y fácil de usar.
+
+Con su aplicativo se puede obtener la información personal de los visitantes a sus oficinas. Se pueden tomar una foto para que el visitado o equipo la vea al recibir el correo notificando que el visitante ha llegado. También pueden firmar documentos en la iPad donde usan el aplicativo. Y al terminar el registro, Envoy imprime automáticamente un badge para que el visitante se pueda identificar dentro del edificio.
+
