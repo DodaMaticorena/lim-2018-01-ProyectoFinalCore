@@ -32,25 +32,7 @@ Con su aplicativo se puede obtener la información personal de los visitantes a 
 
 ## Entrevista
 
-Las preguntas para la entrevista se realizaron de acuerdo al usuario:
-
-#### Preguntas para usuario visitante
-
-1. ¿Cuál es tu nombre?
-2. ¿Cuántos años tienes?
-3. ¿A qué te dedicas?
-4. ¿Qué tipo de dispositivos usas? ¿Con qué frecuencia?
-5. ¿Si es que la tienes, cuál ha sido tu experiencia cuando has visitado edificios que cuentan con una recepción y te piden identificación?
-6. ¿Alguna vez olvidaste tu documento de identidad? ¿Qué pasó cuando olvidaste tu DNI? ¿Qué hicieron? (Si es que aplica)
-7. Cuéntame cómo fue tu experiencia al ingresar a Comunal, especialmente en la recepción.
-8. ¿Cómo te identificaron en la recepción?
-9. ¿Cómo te sentiste con todo ese proceso?
-10. ¿Qué opinas del proceso de identificación?
-11. ¿Qué cambiarías de ese proceso para que sea más fácil para ti?
-12. ¿Te gustaría poder realizar tu identificación de ingreso a Comunal por un medio digital como una tablet?
-
-
-#### Preguntas para usuario administrador
+Las preguntas para la entrevista fueron las siguientes:
 
 1. ¿Cuál es tu nombre?
 2. ¿Qué tipo de dispositivos usas más en tu trabajo?
@@ -61,4 +43,8 @@ Las preguntas para la entrevista se realizaron de acuerdo al usuario:
 7. ¿Qué opinas del proceso de identificación que utilizan cuando entran los visitantes? ¿Qué te gusta y qué te frustra de ello?
 8. ¿Qué cambiarías de ese proceso para que facilite tu trabajo?
 9. ¿Para ti, qué factores o qué datos son los más importantes conocer de un visitante?
+
+También entrevistamos a un trabajador que recibe visitantes para saber su perspectiva.
+
+
 
