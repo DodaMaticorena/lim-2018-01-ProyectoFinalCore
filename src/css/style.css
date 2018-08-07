@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@media only screen and (min-width:300px){
+            
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,16 +12,24 @@
 
 body {
   background: #f2f2f2;
-  font-family: "Roboto", Arial;
+  font-family: 'Roboto', sans-serif;}
+  h1 {
+    padding: 2%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+    padding-left: 5%;
+    padding-right: 0%;
 }
-
-#contentGroup{
-  display: inline-flex;
+    
+#contentGroup {
+    display: inline-flex;
+    padding-left: 16%;
 }
-#contentImage,
-img{
-  width: 50%;
-  height: 50%;
+#contentImage, img {
+    width: 5em;
+    height: 5em;
+    border-radius: 70px;
 }
 #uploader{
   margin: 2px auto;
@@ -23,21 +37,36 @@ img{
   width: 100px;
 }
 form {
-            width: 45em;
-            padding: 5em;
-            border: 1px solid #ccc;
-            border-radius: .5em;
-            margin: 2em auto;
-            box-shadow: .25em .25em 0 #ccc;
-        }
-.form-control{
-  width: 60%;
+    background-color: #fdfdfd;
+    width: 85%;
+    height: 80vh;
+    border: 1px solid #ccc;
+    border-radius: .5em;
+    margin: 2% auto;
+    box-shadow: 0.25em 0.25em 0 #ccc;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: crimson;
+}
+.form-control {
+    width: 80%;
+    font-size: 15px;
+    border: none;
+    background-color: #fdfdfd;
+    border-bottom-style: solid;
+    margin-left: 10%;
+    border-color: #adadad;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 25px;
 }
 
         /* Estilo del área del input[file] */
         .drag-drop {
-            height: 8em;
-            width: 8em;
+            height: 5em;
+            width: 5em;
             background-color: #ccc;
             border-radius: 4em;
             text-align: center;
@@ -117,4 +146,23 @@ form {
          0% { color: rgba(225, 225, 225, .75); }
          50% { color: rgba(225, 225, 225, 0.25); }
          100% { color: rgba(225, 225, 225, .75); }
+        }
+
+
+        .form-group {
+            margin-bottom: 2%;
+            margin-top: 2%;
+        }
+
+        #btnRegistrar {
+            padding: 1%;
+            font-size: 22px;
+            border-radius: 70px;
+            margin-top: 5%;
+            margin-left: 30%;
+        }
+    }
+
+        @media only screen and (min-width:700px){
+
         }

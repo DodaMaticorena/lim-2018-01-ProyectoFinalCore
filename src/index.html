@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario estilo Material Design</title>
 
 </head>
@@ -18,19 +19,15 @@
   <h1>Ingresa tus Datos Personales</h1>
   <form>
     <div class="form-group">
-      <label for="">Nombre</label>
-      <input type="text" class="form-control" id="nombre" placeholder="">
+      <input type="text" class="form-control" id="nombre" placeholder="&#128272;Nombres">
     </div>
     <div class="form-group">
-      <label for="">Apellido</label>
-      <input type="text" class="form-control" id="apellido" placeholder="">
+      <input type="text" class="form-control" id="apellido" placeholder="&#128272;Apellido">
     </div>
     <div class="form-group">
-      <label for="">DNI o Carnet de Extranjeria</label>
-      <input type="text" class="form-control" id="identificacion" placeholder="">
+      <input type="text" class="form-control" id="identificacion" placeholder="&#128272;DNI o Carnet de extranjeria">
     </div>
     <div id="contentText">
-      <label for="">Subir foto</label>
       <div id="contentGroup">
         <div class="drag-drop">
           <input type="file" multiple="multiple" id="photo">
@@ -49,15 +46,13 @@
       </div>
     </div>
     <div class="form-group">
-      <label for="">Horario</label>
       <input class="form-control" type="datetime-local" value="" id="time">
     </div>
 
     <div class="form-group">
-      <label for="">Visitado</label>
-      <input type="text" class="form-control" id="visitado" placeholder="">
+      <input type="text" class="form-control" id="visitado" placeholder="&#128272;Visitado">
     </div>
-    <button type="button" id="btnRegistrar" class="btn btn-primary btn-danger">Registrar</button>
+    <button type="button" id="btnRegistrar" class="btn btn-primary btn-danger">Registra</button>
   </form>
 
   <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
@@ -69,3 +64,4 @@
 </body>
 
 </html>
+
