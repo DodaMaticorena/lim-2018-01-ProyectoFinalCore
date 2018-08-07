@@ -1,13 +1,14 @@
-window.writeUserVisit = (nombre, apellido, identificacion, visitado, tiempo) => {
+window.writeUserVisit = (nombre, apellido, identificacion,fileName,fileURL, visitado, tiempo) => {
 
     var user = {
         nombre: nombre,
         apellido: apellido,
         identificacion: identificacion,
+        imagenNombre:fileName,
+        imagenURL:fileURL,
         visitado: visitado,
-        tiempo: tiempo,
-        fecha: firebase.database.ServerValue.TIMESTAMP
-    };
+        tiempo: tiempo
+        };
 
     // Get a key for a new Post.
     var newUserKey = firebase.database().ref().child('user').push().key;
@@ -16,7 +17,7 @@ window.writeUserVisit = (nombre, apellido, identificacion, visitado, tiempo) => 
     var updates = {};
 
     updates['/user/' + newUserKey] = user;
-
+console.log(tiempo)
     firebase.database().ref().update(updates);
     return newUserKey;
 }
