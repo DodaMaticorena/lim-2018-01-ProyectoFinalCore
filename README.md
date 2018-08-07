@@ -8,24 +8,23 @@ La empresa de coworking donde opera Laboratoria en Lima ha decidido contratarnos
 
 Las historias de usuario nos ayudan a planificarnos mejor y entender la funcionalidad que le aporta al usuario. En este proyecto son las siguientes:
 
-1. Yo como usuario visitante quiero registrarme con mis datos personales en este aplicativo.
-2. Yo como usuario visitante quiero poder tomarme una foto para el registro.
-3. Yo como usuario visitante quiero poder seleccionar a la persona que voy a visitar.
-4. Yo como usuario visitante quiero que notifiquen con un correo electrónico a la persona que voy a visitar.
-5. Yo como usuario administrador quiero visualizar la data de los visitantes: fecha y hora de registro.
+1. Yo como usuario administrador quiero registrar al visitante con sus datos personales en este aplicativo.
+2. Yo como usuario administrador quiero poder tomar una foto para el registro.
+3. Yo como usuario administrador quiero poder seleccionar a la persona que vienen a visitar.
+4. Yo como usuario administrador quiero que notifiquen con un correo electrónico a la persona que vienen a visitar.
+5. Yo como usuario administrador quiero visualizar la data de los visitantes, incluyendo fecha y hora de registro.
 
 ## Definición del usuario
 
-En este caso van a haber dos tipos de usuarios para este aplicativo web:
+El usuario principal es el administrador que necesita registrar y visualizar la data de los visitantes de Comunal.
 
-A) Personas que visitan las oficinas de Comunal. 
-B) Administrador que necesita visualizar la data de los visitantes.
+_Nota adicional: Al principio definimos dos usuarios principales cuando pensamos en este proyecto. Uno era el administrador que necesita visualizar los datos de los visitantes, y el otro era el mismo visitante que viene a Comunal. Esta separación de usuarios era porque el aplicativo permite que se pueda registrar por sí mismo, y que la persona en recepción pueda recibir la data y manejarla. Pero después de realizar las entrevistas, especialmente a la persona que se encuentra en la recepción de Comunal, sacamos la conclusión de que el aplicativo estaba mejor enfocado para que lo utilice sólo el administrador. En las conclusiones de las entrevistas mencionaremos las razones._
 
 ## Benchmark
 
 Hicimos benchmark a la empresa Envoy, que se dedica principalmente al registro de visitantes. 
 
-_Conclusiones_
+**_Conclusiones_**
 
 Envoy utiliza un color vivo, el rojo, y el blanco. Tienen un estilo minimalista y dinámico, con el uso de imágenes y fotos sin llegar a ser excesivo. Es bastante simple y fácil de usar.
 
@@ -61,4 +60,5 @@ Las preguntas para la entrevista se realizaron de acuerdo al usuario:
 6. Si el visitante olvida su documento de identidad, ¿cómo actúan en ese caso?
 7. ¿Qué opinas del proceso de identificación que utilizan cuando entran los visitantes? ¿Qué te gusta y qué te frustra de ello?
 8. ¿Qué cambiarías de ese proceso para que facilite tu trabajo?
-9. ¿Para ti, qué factor es el más importante conocer de un visitante?
+9. ¿Para ti, qué factores o qué datos son los más importantes conocer de un visitante?
+
