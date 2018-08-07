@@ -1,0 +1,19 @@
+.col-sm{
+    padding: 3%;
+}
+.col-sm,
+img{
+    width: 500px;
+}
+#principal{
+}
+
+#principal,
+h3{
+    font-size: 40px;
+    margin: 2% auto;
+}
+
+#register{
+margin: 50px auto;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "lim-2018-01-proyectofinalcore",
+  "version": "1.0.0",
+  "description": "La empresa de coworking donde opera Laboratoria en Lima ha decidido contratarnos para reinventar su proceso de registro de visitantes. Con la entrada de WeWork al mercado latinoamericano, tienen mucha más competencia y necesitan invertir en tecnología para mejorar su servicio; el registro de visitantes es un primer acercamiento.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalyPorras/lim-2018-01-ProyectoFinalCore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatalyPorras/lim-2018-01-ProyectoFinalCore/issues"
+  },
+  "homepage": "https://github.com/NatalyPorras/lim-2018-01-ProyectoFinalCore#readme"
+}
