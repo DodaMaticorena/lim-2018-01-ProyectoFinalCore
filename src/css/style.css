@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 @media only screen and (min-width:300px){
             
 
@@ -14,6 +14,7 @@ body {
   background: #f2f2f2;
   font-family: 'Roboto', sans-serif;}
   h1 {
+    font-family: 'Oswald', sans-serif;
     padding: 2%;
     font-size: 30px;
     text-align: center;
@@ -39,7 +40,6 @@ body {
 form {
     background-color: #fdfdfd;
     width: 85%;
-    height: 80vh;
     border: 1px solid #ccc;
     border-radius: .5em;
     margin: 2% auto;
@@ -47,6 +47,7 @@ form {
     border-top-style: solid;
     border-top-width: 10px;
     border-top-color: crimson;
+    padding-bottom: 10%;
 }
 .form-control {
     width: 80%;
@@ -150,8 +151,8 @@ label {
 
 
         .form-group {
-            margin-bottom: 2%;
-            margin-top: 2%;
+            margin-bottom: 6%;
+            margin-top: 6%;
         }
 
         #btnRegistrar {
@@ -163,6 +164,160 @@ label {
         }
     }
 
+
+
+    @media only screen and (min-width:411px){.form-group {
+        margin-bottom: 9%;
+        margin-top: 9%;
+    }
+
+    h1 {
+        padding: 5%;
+        font-size: 35px;}
+
+        form {
+            padding-top: 5%;}
+
+            #btnRegistrar {
+                padding: 3%;
+                font-size: 26px;
+                margin-left: 34%;
+            }
+            #contentGroup {
+                padding-left: 25%;
+            }
+            .form-control{font-size: 19px;}
+}
         @media only screen and (min-width:700px){
 
+            h1 {
+                padding: 4%;
+                font-size: 38px;
+                text-align: center;
+                font-weight: 100;
+                padding-left: 5%;
+                padding-right: 0%;
+                border-bottom-style: solid;
+                border-bottom-width: 10px;
+                border-bottom-color: crimson;
+            }
+            form {
+                background-color: #fdfdfd;
+                width: 55%;
+                height: 80vh;
+                border: 1px solid #ccc;
+                border-radius: .5em;
+                margin: 5% auto;
+                box-shadow: 0.25em 0.25em 0 #ccc;
+                padding-top: 6%;
+            }
+
+            .form-group {
+                margin-bottom: 7%;
+                margin-top: 7%;
+            }
+
+            .form-control {
+                width: 80%;
+                font-size: 24px;
+                border: none;
+                background-color: #fdfdfd;
+                border-bottom-style: solid;
+                margin-left: 10%;
+                border-color: #adadad;
+            }
+
+            #contentGroup {
+                padding-left: 21%;
+            }
+
+            .drag-drop {
+                height: 7em;
+                width: 7em;
+                background-color: #ccc;
+                border-radius: 4em;
+                text-align: center;
+                color: white;
+                position: relative;
+                margin: 0 auto 1em;
+            }
+
+            #contentImage, img {
+                width: 7em;
+                height: 7em;
+                border-radius: 70px;
+            }
+
+            #btnRegistrar {
+                width: 40%;
+                padding: 2%;
+                font-size: 30px;
+                border-radius: 70px;
+                margin-top: 5%;
+                margin-left: 30%;
+            }
         }
+    
+
+        @media only screen and (min-width:1120px){
+            h1 {
+                padding: 4%;
+                font-size: 49px;
+                padding-left: 0%;}
+
+.form-control {
+    width: 80%;
+    font-size: 35px;}
+       
+
+        .form-group {
+            margin-bottom: 10%;
+            margin-top: 10%;
+        }
+
+        .drag-drop {
+            height: 10em;
+            width: 10em;
+            border-radius: 5em;}
+            
+            
+            #contentImage, img {
+                width: 10em;
+                height: 10em;
+                border-radius: 90px;
+            }
+
+            #btnRegistrar {
+                padding: 3%;
+                font-size: 35px;
+                width: 40%;
+                margin-left: 30%;}
+            } 
+            
+            @media only screen and (min-width:1150px){
+            form {
+                height:initial;
+        }
+            @media only screen and (min-width:1600px){
+            h1 {
+                font-size: 60px;}
+               
+               .form-control {
+                    width: 80%;
+                    font-size: 45px;
+                }
+                .drag-drop {
+                    height: 15em;
+                    width: 15em;
+                    border-radius: 8em;
+                }
+
+                #contentImage, img {
+                    width: 15em;
+                    height: 15em;
+                    border-radius: 120px;
+                }
+
+                form {
+                    height: initial;}}
+                
