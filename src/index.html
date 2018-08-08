@@ -16,7 +16,9 @@
 </head>
 
 <body>
-  <h1>Ingresa tus Datos Personales</h1>
+  <header>
+      <h1>Datos Personales</h1>
+  </header>
   <form>
     <div class="form-group">
       <input type="text" class="form-control" id="nombre" placeholder="&#128272;Nombres">
@@ -28,6 +30,7 @@
       <input type="text" class="form-control" id="identificacion" placeholder="&#128272;DNI o Carnet de extranjeria">
     </div>
     <div id="contentText">
+      <label for="">Subir Foto</label>
       <div id="contentGroup">
         <div class="drag-drop">
           <input type="file" multiple="multiple" id="photo">
@@ -36,9 +39,8 @@
             <i class="fa fa-circle fa-stack-1x top medium"></i>
             <i class="fa fa-arrow-circle-up fa-stack-1x top"></i>
           </span>
-          <span class="desc">Pulse aquí para añadir archivos</span>
+          <span class="desc">Pulse aquí para añadir photo</span>
           <progress value="0" max="100" id="uploader"></progress>
-
         </div>
         <div id="contentImage">
           <img id="imgSalida" src="image/incognito.png" />
@@ -48,7 +50,6 @@
     <div class="form-group">
       <input class="form-control" type="datetime-local" value="" id="time">
     </div>
-
     <div class="form-group">
       <input type="text" class="form-control" id="visitado" placeholder="&#128272;Visitado">
     </div>
