@@ -119,3 +119,7 @@ En el caso de Envoy, antes de hacer el benchmark ya teníamos la idea de usar un
 Tampoco se puede imprimir badges como lo hace Envoy, porque es una primera versión de nuestra solución. De la misma manera, no se puede firmar documentos por tablet. Lo que sí implementamos es el envío de correos electrónicos a la persona y el tomar fotos.
 
 En comparación, a pesar de las diferencias y las similitudes que pueden haber, la solución que planteamos resuelve la necesidad inmediata y precisa que se tiene.
+
+## Usuario de Sesión del aplicativo
+
+Usuario: diego.123@comunal.al -- Contraseña:Diego123@
