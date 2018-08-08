@@ -1,0 +1,34 @@
+{
+  "employee" : {
+    "-LJLNxAntYdwioE4LGbQ" : {
+      "apellido" : "Porras",
+      "identificacion" : "71516518",
+      "imagenNombre" : "flowers.jpg",
+      "imagenURL" : "https://firebasestorage.googleapis.com/v0/b/wework-labb.appspot.com/o/post-images%2Fflowers.jpg?alt=media&token=91604841-e8b2-44ff-b29d-42bf6d388c6f",
+      "motivo" : "Entregar taper",
+      "nombre" : "Nataly",
+      "tiempo" : "2018-08-12T09:12",
+      "visitado" : "Doda Maticorena"
+    },
+    "-LJLOhYqJg-fyFqfHNfP" : {
+      "apellido" : "Galarza",
+      "identificacion" : "72932263",
+      "imagenNombre" : "tiger.jpg",
+      "imagenURL" : "https://firebasestorage.googleapis.com/v0/b/wework-labb.appspot.com/o/post-images%2Ftiger.jpg?alt=media&token=940a74a2-a064-47f2-8fcc-72248654b5ea",
+      "motivo" : "Pedir un archivo",
+      "nombre" : "Yenifer",
+      "tiempo" : "2018-08-25T04:04",
+      "visitado" : "Valeria"
+    },
+    "-LJLP5ebeLH3cb-WxVYp" : {
+      "apellido" : "Maticorena",
+      "identificacion" : "45565456",
+      "imagenNombre" : "butterfly.jpg",
+      "imagenURL" : "https://firebasestorage.googleapis.com/v0/b/wework-labb.appspot.com/o/post-images%2Fbutterfly.jpg?alt=media&token=972b1a99-559c-4427-a7b7-a2f8243fc0c2",
+      "motivo" : "Visitar el espacio de comunal",
+      "nombre" : "Doda",
+      "tiempo" : "2018-08-04T04:12",
+      "visitado" : "Nataly Porras"
+    }
+  }
+}

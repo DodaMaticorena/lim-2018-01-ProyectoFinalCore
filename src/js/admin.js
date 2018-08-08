@@ -1,4 +1,4 @@
-const cardCheck=document.querySelector(".card-deck");
+const cardCheck=document.querySelector(".row");
 const signOut=document.querySelector("#signOut");
 
 signOut.addEventListener('click',() =>{
@@ -35,16 +35,18 @@ const createUser= (cardId, user, userId) =>{
     console.log(userId);
 cardCheck.innerHTML +=
 `
-<div class="card">
+  <div class="col-sm-6">
+    <div class="card">
     <img class="card-img-top" src="${user.val().imagenURL}" alt="Card image cap">
-    <div class="card-body">
-        <h5 class="card-title">Visitante</h5>
-        <p class="card-text">Nombre: ${user.val().nombre}</p>
-        <p class="card-text">Apellido: ${user.val().apellido}</p>
-        <p class="card-text">Identificación: ${user.val().identificación}</p>
-        <p class="card-text">Tiempo: ${user.val().tiempo}</p>
-        <p class="card-text">Motivo: ${user.val().motivo}</p>
+      <div class="card-body">
+      <h5 class="card-title">Visitante</h5>
+      <p class="card-text">Nombre: ${user.val().nombre}</p>
+      <p class="card-text">Apellido: ${user.val().apellido}</p>
+      <p class="card-text">Identificación: ${user.val().identificacion}</p>
+      <p class="card-text">Tiempo: ${user.val().tiempo}</p>
+      <p class="card-text">Motivo: ${user.val().motivo}</p>
+      </div>
     </div>
-</div>
+  </div>
 `   
 }

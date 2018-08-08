@@ -1,3 +1,8 @@
+#logo{
+    width: 85px;
+    height: 70px;
+    margin: 0;
+}
 
 .navbar,
 .bg-light {
@@ -38,7 +43,7 @@ nav{
     padding: 1%;
 }
 
-.col-sm,
+#principal,
 img{
     width: 100%;
     height: 490px;

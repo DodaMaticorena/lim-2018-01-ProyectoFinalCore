@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+#logo{
+    width: 85px;
+    height: 70px;
+    margin: 0;
+}
 header{
     background: #dc3545;
 }

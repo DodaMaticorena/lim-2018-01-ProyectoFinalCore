@@ -49,7 +49,7 @@ const newUserVisit = (fileName, fileUrl) => {
     tiempo.value = "";
     motivo.value = "";
 
-    // window.location.assign("message.html");
+    window.location.assign("message.html");
     sendEmail();
   });
 }
@@ -61,6 +61,9 @@ const sendEmail = () => {
     data: {
       'key': 'ZGiSDAUGJIgaCMIqm9ysPA',
       'message': {
+        "html": "<p>Example HTML content</p>",
+        "text": "Example text content",
+        "subject": "example subject",
         'from_email': 'nat@laboratoria.la',
         'to': [
           {
@@ -69,8 +72,16 @@ const sendEmail = () => {
             'type': 'to'
           }
         ],
+        "images": [
+          {
+              "type": "image/png",
+              "name": "IMAGECID",
+              "content": "ZXhhbXBsZSBmaWxl"
+          }
+      ],
         'subject': 'title',
         'html': 'html can be used'
+
       }
     }
   });
