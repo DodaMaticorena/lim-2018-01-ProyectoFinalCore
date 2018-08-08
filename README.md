@@ -75,4 +75,15 @@ _Fotos de las entrevistas_
 
 ![Sin titulo](/img/entrevista.jpeg) ![Sin titulo](/img/entrevista2.jpeg)
 
+## Sketch
+
+Debido al corto tiempo que se tenía para trabajar el proyecto, elaboramos un sketch antes de la primera entrevista y otro después de ella.
+
+_Sketch antes de primera entrevista_
+
+![Sin titulo](/img/sketch1.jpeg) ![Sin titulo](/img/sketch2.jpeg)
+
+_Sketch después de primera entrevista_
+
+![Sin titulo](/img/sketch3.jpeg) ![Sin titulo](/img/sketch4.jpeg) ![Sin titulo](/img/sketch5.jpeg)
 
