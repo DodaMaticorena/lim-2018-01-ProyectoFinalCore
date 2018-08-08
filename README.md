@@ -1,6 +1,6 @@
 # lim-2018-01- Proyecto Final Core
 
-[Link al aplicativo](https://dodamaticorena.github.io/lim-2018-05-bc-core-pm-socialnetwork/src/)
+<!-- [Link del aplicativo]() -->
 
 ## Introducción
 
@@ -86,4 +86,13 @@ _Sketch antes de primera entrevista_
 _Sketch después de primera entrevista_
 
 ![Sin titulo](/img/sketch3.jpeg) ![Sin titulo](/img/sketch4.jpeg) ![Sin titulo](/img/sketch5.jpeg)
+
+## Prototipo de Alta Fidelidad
+
+Utilizamos Figma para elaborar el prototipo del aplicativo. Se intento hacerlo lo más parecido a lo que sería la solución final. 
+
+[Link del prototipo desktop](https://www.figma.com/proto/RveP02FR0JIztr5wU4yrSdIw/Registro-de-visitantes-desktop?node-id=1%3A2&scaling=min-zoom)
+[Link del prototipo móvil](https://www.figma.com/proto/Lnrv6BbgdxSl8n2vvV9SXQsq/Registro-de-visitantes-m%C3%B3vil?node-id=2%3A2&scaling=min-zoom)
+
+![Sin titulo](/img/prototipo-desktop-figma.jpg)
 
