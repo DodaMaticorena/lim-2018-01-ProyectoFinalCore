@@ -1,4 +1,6 @@
-# lim-2018-01-ProyectoFinalCore
+# lim-2018-01- Proyecto Final Core
+
+[Link al aplicativo](https://dodamaticorena.github.io/lim-2018-05-bc-core-pm-socialnetwork/src/)
 
 ## Introducción
 
@@ -46,5 +48,31 @@ Las preguntas para la entrevista fueron las siguientes:
 
 También entrevistamos a un trabajador que recibe visitantes para saber su perspectiva.
 
+**_Resumen de entrevistas_**
+
+Los dispositivos que más usan los entrevistados son laptop y celular. La entrevistada principal desarrolla tareas de recepción, recibe a los visitantes y comunica a los clientes (visitados) que la persona con la que tienen reunión ya llegó. Son el nexo entre el cliente y el visitante. Por otro lado, el trabajador entrevistado realiza sus labores específicas, en este caso de finanzas, de manera natural. 
+
+En Comunal reciben dos tipos de visitantes usualmente, las personas que van a reunirse con los comuneros (clientes de Comunal y también trabajadores propios) y los proveedores.
+
+El proceso de recepción de visitantes es que primero pasan por la administración del edificio, que es en la entrada, donde les piden el nombre y el documento de identidad. Si los visitantes son para Comunal, entran al lobby de ellos, donde les preguntan a quién quieren visitar, buscan la información del cliente en su base de datos, si lo encuentran entonces proceden a avisarle a la persona para que vaya a la recepción y reciba a su visita. Le avisan por medio de la aplicación Whatsapp o por llamada telefónica en caso de no responder Whatsapp en unos minutos.
+
+En el caso del trabajador que recibe invitados, en Comunal se comunican a un grupo de Whatsapp que tiene con el cliente y el trabajador lo ve o entre el equipo de trabajo se avisan; entonces, esta persona se dirige a la recepción a ver a su invitado.
+
+Comunal no pide documento de identidad, eso lo verifican en la entrada.
+
+La entrevistada opinó que el proceso de recibir a un visitante es personalizado y es un buen componente, pero por otro lado, no se lleva ningún control de las visitas en Comunal. Y sí le gustaría tener uno para poder analizar la información de manera más detallada y tener un control de seguridad. 
+Para el trabajador entrevistado es indiferente cómo es la recepción de visitantes mientras le avisen a tiempo y de manera eficaz cuando llega su invitado.
+
+Los datos que le parecen más importantes a la entrevistada en recepción son el nombre y apellidos, posiblemente el correo electrónico o número de celular, y a quién llegan a visitar.
+
+**_Conclusiones_**
+
+Para la entrevistada de Comunal, la combinación del trato personalizado y el uso de la tecnología sería la mejor solución para su registro de visitantes.
+
+El factor primordial por el que implementarían un aplicativo de registro es para llevar un orden adecuado que les facilite el control de visitantes y la seguridad general. Es un complemento a lo que ya hacen, para que también facilite el proceso de comunicación.
+
+_Fotos de las entrevistas_
+
+![Sin titulo](/img/entrevista.jpeg) ![Sin titulo](/img/entrevista2.jpeg)
 
 
