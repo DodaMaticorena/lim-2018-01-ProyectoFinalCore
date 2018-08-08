@@ -1,4 +1,21 @@
-window.writeUserVisit = (nombre, apellido, identificacion,fileName,fileURL, visitado, tiempo) => {
+window.signInUser = (email, password) => {
+    firebase.auth().signInWithEmailAndPassword(email, password).then(() => {
+      window.location.assign('admin.html')
+    })
+      .catch(function (error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        if (errorCode == 'auth/weak-password') {
+          alert('The password is too weak.');
+        } else {
+          alert(errorMessage);
+        }
+        console.log(error);
+      });
+  };
+  
+window.writeUserVisit = (nombre, apellido, identificacion,fileName,fileURL, visitado, tiempo,motivo) => {
 
     var user = {
         nombre: nombre,
@@ -7,7 +24,8 @@ window.writeUserVisit = (nombre, apellido, identificacion,fileName,fileURL, visi
         imagenNombre:fileName,
         imagenURL:fileURL,
         visitado: visitado,
-        tiempo: tiempo
+        tiempo: tiempo,
+        motivo:motivo
         };
 
     // Get a key for a new Post.

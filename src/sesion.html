@@ -21,10 +21,10 @@
         <a class="navbar-brand">Navbar</a>
         <form class="form-inline">
                 <label for="">Usuario:</label>
-                <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Search">
+                <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Search" id="email">
                 <label for="">Contraseña:</label>
-                <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Inicia Sesión</button>
+                <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Search" id="password">
+            <button id="iniciarSesión" class="btn btn-outline-success my-2 my-sm-0" type="button">Inicia Sesión</button>
         </form>
     </nav>
     <div class="container">
@@ -40,6 +40,11 @@
             </div>
         </div>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
+    <script src="js/firebase.js"></script>
+    <script src="js/app.js"></script>
     <script src="js/sesion.js"></script>
 </body>
 
