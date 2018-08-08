@@ -20,7 +20,7 @@ Las historias de usuario nos ayudan a planificarnos mejor y entender la funciona
 
 El usuario principal es el administrador que necesita registrar y visualizar la data de los visitantes de Comunal.
 
-_Nota adicional: Al principio definimos dos usuarios principales cuando pensamos en este proyecto. Uno era el administrador que necesita visualizar los datos de los visitantes, y el otro era el mismo visitante que viene a Comunal. Esta separación de usuarios era porque el aplicativo permite que se pueda registrar por sí mismo, y que la persona en recepción pueda recibir la data y manejarla. Pero después de realizar las entrevistas, especialmente a la persona que se encuentra en la recepción de Comunal, sacamos la conclusión de que el aplicativo estaba mejor enfocado para que lo utilice sólo el administrador. En las conclusiones de las entrevistas mencionaremos las razones._
+_Nota adicional: Al principio definimos dos usuarios principales cuando pensamos en este proyecto. Uno era el administrador que necesita visualizar los datos de los visitantes, y el otro era el mismo visitante que viene a Comunal. Esta separación de usuarios era porque el aplicativo permite que se pueda registrar por sí mismo, y que la persona en recepción pueda recibir la data y manejarla. Pero después de realizar las entrevistas, especialmente a la persona que se encuentra en la recepción de Comunal, sacamos la conclusión de que el aplicativo estaba mejor enfocado para que lo utilice sólo el administrador. En el testing del prototipo mencionaremos las razones._
 
 ## Benchmark
 
@@ -28,7 +28,7 @@ Hicimos benchmark a la empresa Envoy, que se dedica principalmente al registro d
 
 **_Conclusiones_**
 
-Envoy utiliza un color vivo, el rojo, y el blanco. Tienen un estilo minimalista y dinámico, con el uso de imágenes y fotos sin llegar a ser excesivo. Es bastante simple y fácil de usar.
+Envoy utiliza un color vivo, el rojo, y también el blanco. Tienen un estilo minimalista y dinámico, con el uso de imágenes y fotos sin llegar a ser excesivo. Es bastante simple y fácil de usar.
 
 Con su aplicativo se puede obtener la información personal de los visitantes a sus oficinas. Se pueden tomar una foto para que el visitado o equipo la vea al recibir el correo notificando que el visitante ha llegado. También pueden firmar documentos en la iPad donde usan el aplicativo. Y al terminar el registro, Envoy imprime automáticamente un badge para que el visitante se pueda identificar dentro del edificio.
 
@@ -106,3 +106,16 @@ El segundo usuario con el que testeamos, comprendió rápidamente el flujo. Le p
 
 ![Sin titulo](/img/testing-prototype.jpeg) ![Sin titulo](/img/testing-prototype2.jpeg)
 
+## WeWork, comparación con solución propia y Envoy
+
+Hicimos un benchmark de Envoy y WeWork de lo que pudimos encontrar en internet. En el caso de WeWork no encontramos mucha información sobre su registro de visitantes y no fue posible entrar a la empresa. 
+
+WeWork tiene una página con todas sus sedes abiertas y en proceso de abrir a nivel global. Pide programar una cita a futuro para visitar el lugar como potencial cliente; aquí te piden nombre completo, correo electrónico, número de teléfono, fecha de entrada y cuántas personas necesitan un lugar de trabajo.
+
+No podemos comparar mucho nuestra solución con la de WeWork porque, a pesar de saber que para una visita necesitan esa información, no sabemos cómo registrarán a sus visitantes en el mismo lugar.
+
+En el caso de Envoy, antes de hacer el benchmark ya teníamos la idea de usar un color vivo así tal cual como el rojo, lo veíamos con un color fuerte. En comparación con nuestra solución, se diferencia en quién utiliza nuestro aplicativo. Aquí lo hemos limitado a la persona de la recepción por dos razones: una es porque los lineamientos del proyecto piden que se pueda seleccionar al trabajador que van a visitar y porque en la entrevista se concluyó que era mejor que esos datos los maneje la persona en recepción. 
+
+Tampoco se puede imprimir badges como lo hace Envoy, porque es una primera versión de nuestra solución. De la misma manera, no se puede firmar documentos por tablet. Lo que sí implementamos es el envío de correos electrónicos a la persona y el tomar fotos.
+
+En comparación, a pesar de las diferencias y las similitudes que pueden haber, la solución que planteamos resuelve la necesidad inmediata y precisa que se tiene.
