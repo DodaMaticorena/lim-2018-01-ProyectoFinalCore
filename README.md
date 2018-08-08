@@ -79,11 +79,11 @@ _Fotos de las entrevistas_
 
 Debido al corto tiempo que se tenía para trabajar el proyecto, elaboramos un sketch antes de la primera entrevista y otro después de ella.
 
-_Sketch antes de primera entrevista_
+_Sketch antes de primera entrevista y testing_
 
 ![Sin titulo](/img/sketch1.jpeg) ![Sin titulo](/img/sketch2.jpeg)
 
-_Sketch después de primera entrevista_
+_Sketch después de primera entrevista y testing_
 
 ![Sin titulo](/img/sketch3.jpeg) ![Sin titulo](/img/sketch4.jpeg) ![Sin titulo](/img/sketch5.jpeg)
 
@@ -95,4 +95,14 @@ Utilizamos Figma para elaborar el prototipo del aplicativo. Se intento hacerlo l
 [Link del prototipo móvil](https://www.figma.com/proto/Lnrv6BbgdxSl8n2vvV9SXQsq/Registro-de-visitantes-m%C3%B3vil?node-id=2%3A2&scaling=min-zoom)
 
 ![Sin titulo](/img/prototipo-desktop-figma.jpg)
+
+## Testing del Prototipo con usuarios
+
+La primera usuaria con la que testeamos el prototipo al principio no entendió lo que tenía que hacer hasta que le pedimos que observe con detenimiento, entonces al leer y mirar con tranquilidad comprendió los primeros pasos que se debían tomar. 
+
+Las conclusiones que pudimos sacar con el primer testing es que a la usuaria le pareció un flujo comprensible, simplista y bueno en general. Al inicio planteamos al visitante como usuario que se registraba independientemente, pero al hacer el testing ella hizo hincapié en que era importante no mostrar los datos de los trabajadores de sus clientes a otras personas, por cuestión de seguridad y privacidad no le pareció buena idea. Pero al plantearle la posibilidad de que ellos (recepción de Comunal) fueran los únicos usuarios del aplicativo que podrían registrar a un visitante, expresó que en ese caso sí estaría de acuerdo con seleccionar al trabajador que van a visitar.
+
+El segundo usuario con el que testeamos, comprendió rápidamente el flujo. Le pareció un diseño simple, preciso y que cumplía con lo necesario. Solo tuvo la observación de crear un filtro adicional para seleccionar la empresa y poder facilitar o simplificar la búsqueda de la persona a la que van a visitar.
+
+![Sin titulo](/img/testing-prototype.jpeg) ![Sin titulo](/img/testing-prototype2.jpeg)
 
