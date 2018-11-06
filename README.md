@@ -91,8 +91,8 @@ _Sketch después de primera entrevista y testing_
 
 Utilizamos Figma para elaborar el prototipo del aplicativo. Se intento hacerlo lo más parecido a lo que sería la solución final. 
 
-[Link del prototipo desktop](https://www.figma.com/proto/RveP02FR0JIztr5wU4yrSdIw/Registro-de-visitantes-desktop?node-id=1%3A2&scaling=min-zoom)
-[Link del prototipo móvil](https://www.figma.com/proto/Lnrv6BbgdxSl8n2vvV9SXQsq/Registro-de-visitantes-m%C3%B3vil?node-id=2%3A2&scaling=min-zoom)
+[Link del prototipo desktop](https://www.figma.com/proto/YelniUkShU7HWn5cTQheUc/Registro-de-visitantes-desktop?scaling=contain)
+[Link del prototipo móvil](https://www.figma.com/proto/jhGm2imuJZYT1eAlDDKzdR/Registro-de-visitantes-mobile?scaling=contain&node-id=2%3A2)
 
 ![Sin titulo](/img/prototipo-desktop-figma.jpg)
 
